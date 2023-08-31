@@ -27,7 +27,9 @@ html,body
 {
     height: 100%;
     width:100%;
-    object-fit: cover;
+    object-fit:cover; 
+    /* The CSS object-fit property is used to specify how an <img> or <video> should be resized to fit its container. */
+    /* It is similar to background-size property */
 }
 
 .box img:hover
