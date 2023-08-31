@@ -1,3 +1,5 @@
+/* CSS boiler plate */
+
 *
 {
     margin: 0;
@@ -9,4 +11,22 @@ html,body
 {
     height: 100%;
     width: 100%;
+}
+
+/* Styling */
+
+img
+{
+    width: 40%;
+
+    /* Filter property: */
+    /* We can use filter property to edit our images. */
+
+    /* filter:blur(2px);  */
+    /* filter:brightness(1.5); */
+    /* filter:contrast(2) ; */
+    /* filter: grayscale(2); */
+    /* filter: drop-shadow(16px 16px 20px red) invert(75%); */
+    /* etc (you can explore more on mdn website */
+
 }
