@@ -1,0 +1,29 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Gilroy';
+    box-sizing: border-box;
+}
+
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+
+/* Styling starts here */
+
+h1
+{
+    font-size: 4rem;
+    font-weight: 900;
+    background-image: url(fire.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    /* 3 magical properties for showing image inside text */
+    background-clip:text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
