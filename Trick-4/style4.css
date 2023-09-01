@@ -1,0 +1,23 @@
+button
+{
+     margin: 50px;
+    background-color:lightseagreen;
+    color: #fff;
+    padding: 0.5rem;
+    width: 10rem;
+    height: 3rem;
+    border-radius: 0.2rem;
+    text-align: center;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+
+}
+
+button:hover
+{
+    /* x-axis , y-axis , blur */
+    box-shadow:5px 5px 5px black;
+    transition: all 0.5s ease-in;
+
+}
