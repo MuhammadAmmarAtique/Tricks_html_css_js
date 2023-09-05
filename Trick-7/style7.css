@@ -1,0 +1,25 @@
+.box
+{
+    height: 15rem;
+    width: 15rem;
+    margin: 10rem;
+    border-radius: 50%;
+    /*  */
+    background: linear-gradient(yellow, rgb(20, 255, 20), blue, rgb(224, 47, 77), purple);
+    padding: 5px;
+
+    /* Its not actually a border, gradient is behind the box, it is giving effect like border */
+
+    
+}
+
+.box img
+{
+    height: 100%;
+    width: 100%;
+    object-fit:cover; 
+    border-radius: 50%;
+
+}
+
+
