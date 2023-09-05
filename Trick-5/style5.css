@@ -19,11 +19,14 @@ h1
     font-size: 4rem;
     font-weight: 900;
     background-image: url(fire.jpg);
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     text-align: center;
     /* 3 magical properties for showing image inside text */
-    background-clip:text;
+    background-clip:text;     
     -webkit-background-clip: text;
     color: transparent;
 }
+
+/*These properties will show background image where text is present, now we will transparent the text, it will now give 
+effect like image is inside the text, actually its an illusion, hehe.     */
