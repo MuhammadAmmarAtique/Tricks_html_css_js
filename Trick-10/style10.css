@@ -1,0 +1,24 @@
+/* CSS Boiler plate */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+html , body
+{ 
+height: 100%;
+width: 100%;
+font-family: 'Segoe UI';
+}
+/* Main styling starts here */
+h1
+{
+    text-align: center;
+    font-size: 5rem;
+    font-weight:bolder;
+    /*  */
+    -webkit-text-stroke: 4px black;
+    color: transparent;
+    letter-spacing: 4px;
+}
+
