@@ -17,7 +17,8 @@ h1
     font-size: 5rem;
     font-weight:bolder;
     /*  */
-    -webkit-text-stroke: 4px black;
+    /* width+color */
+    -webkit-text-stroke: 3px black;
     color: transparent;
     letter-spacing: 4px;
 }

@@ -18,6 +18,7 @@ html,body
 img
 {
     width: 40%;
+    margin: 2rem;
 
     /* Filter property: */
     /* We can use filter property to edit our images. */
@@ -26,7 +27,9 @@ img
     /* filter:brightness(1.5); */
     /* filter:contrast(2) ; */
     /* filter: grayscale(2); */
-    /* filter: drop-shadow(16px 16px 20px red) invert(75%); */
+    filter: drop-shadow(10px 10px 20px black);
+
+    /* Drop-shadow gives shadow around the image */
     /* etc (you can explore more on mdn website */
 
 }
