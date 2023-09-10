@@ -1,12 +1,43 @@
+<!-- JS(02) Understanding comparison operator working (Trick-15) -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trick-15</title>
-    <link rel="stylesheet" href="style15.css">
 </head>
 <body>
+
+    <script>
+
+        let a=10;
+        let b="10";
+
+        // Case:1
+        if(a==b)
+        {
+             console.log("Both are equal! (wrong-result)")
+        }
+        else
+        {console.log("No both values are not equal!")}
+
+
+        // Here comparison operator is comparing "values" not "datatatypes" and giving wrong result in case 1, if we want it to compare datatype as well, use triple equal to.
+
+        // Case:2
+        if(a===b)
+        { 
+            console.log("Both values are equal!")
+        }
+        else
+        {
+            console.log("No both values are not equal!")
+        }
+
+
+
+    </script>
     
 </body>
 </html>
