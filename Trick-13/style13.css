@@ -11,3 +11,19 @@ height: 100%;
 width: 100%;
 }
 /* Main styling starts here */
+h1,h3
+{
+    text-align: center;
+}
+
+/*  */
+
+h3::selection
+{
+    background-color: black;
+    color: red;
+}
+
+
+/* ::selection pseudo-element. */
+/* The ::selection pseudo-element is used to apply styles to the portion of text that a user selects with their cursor. */
