@@ -1,0 +1,34 @@
+/* CSS Boiler plate */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+ }
+html , body
+{ 
+height: 100%;
+width: 100%;
+}
+/* Main styling starts here */
+div
+{
+    text-align: center;
+    margin: 5rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    /*  */
+    border: 5px solid lightgray;
+    border-top:5px solid black;
+    animation: rotate 1s linear infinite;
+    
+}
+
+@keyframes rotate {
+    from{transform: rotate(0);}
+
+    to {transform: rotate(360deg);}
+   
+}
+
