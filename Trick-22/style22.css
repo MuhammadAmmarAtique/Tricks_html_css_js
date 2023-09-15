@@ -1,0 +1,29 @@
+/* CSS Boiler plate */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+ }
+html , body
+{ 
+height: 100%;
+width: 100%;
+}
+/* Main styling starts here */
+#box
+{
+    margin: 2rem;
+    height: 15rem;
+    width: 15rem;
+    text-align: center;
+    background-color: crimson;
+}
+
+/*  */
+#box h4::before
+{ 
+content: "Hi, ";  /*  Remember to add inverted commas in the value of content */
+}
+
+/* Inserted text will show before and after of the text not the box itself! */
