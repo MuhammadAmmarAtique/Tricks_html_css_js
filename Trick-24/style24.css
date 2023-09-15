@@ -1,0 +1,30 @@
+/* CSS Boiler plate */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI';
+ }
+html , body
+{ 
+height: 100%;
+width: 100%;
+}
+/* Main styling starts here */
+button
+{
+    margin: 5rem;
+    padding: 0.4rem 1.2rem ;
+    font-size: 1.2rem;
+    background-color: lightseagreen;
+    border: none;
+    color: white;
+    font-weight: 400;
+    transition: all 0.2s ease-in;
+}
+
+button:active
+{
+    scale:0.9;
+    
+}
